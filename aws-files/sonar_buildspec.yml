@@ -3,9 +3,9 @@ env:
   parameter-store:
     LOGIN: LOGIN
     HOST: HOST
-    Organization: Organization
-    Project: Project
-    CODEARTIFACT_AUTH_TOKEN: CODEARTIFACT_AUTH_TOKEN
+    Organization: organization
+    Project: project
+    CODEARTIFACT_AUTH_TOKEN: Code-Artifact-Token
 phases:
   install:
     runtime-versions:
